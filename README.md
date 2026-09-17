@@ -19,7 +19,7 @@ This project seeks to maximize the composting kinetics using a 12V PWM DC blower
 
 | Phase / Target Date | Ian Knight | Anushka Erra | System Integration & Field Testing |
 | :--- | :--- | :--- | :--- |
-| **Week 4: Designing Subsystems** | • gather data on power usage, fan RPM, ambient temperature and store it on an SD card<br>• create 3 different run modes for the fans<br>• look for websites the show light and shadow data<br>| • get caught up on research papers and look up more if interested<br>• stream the esp32 camera over the computer<br>1. | **Gateway 1:** Affectively record camera data, temperature, and power on the SD card, and timestamp it. |
+| **Week 4: Designing Subsystems** | • gather data on power usage, fan RPM, ambient temperature and store it on an SD card<br>• create 3 different run modes for the fans<br>• look for websites the show light and shadow data<br>| • get caught up on research papers and look up more if interested<br>• stream the esp32 camera over the computer<br>1. add any UDF and initialization functions for the camera in esp32_cam.c<br>2. add UDFs and global vars (if any under designated location in main.c<br>3. add whatever code necessary between #if defined(TEST_ESP32_CAM) and #endif<br>4. add camera datasheet to main branch<br>| **Gateway 1:** Affectively record camera data, temperature, and power on the SD card, and timestamp it. |
 
 
 ## 🛠️ Software & Build Setup
@@ -35,5 +35,15 @@ This project seeks to maximize the composting kinetics using a 12V PWM DC blower
    git clone [https://github.com/IANJKNIGHT/VIP_microcontroller_composting_kinetics_PV
 .git](https://github.com/IANJKNIGHT/VIP_microcontroller_composting_kinetics_PV
 .git)
-   cd VIP_microcontroller_composting_kinetics_PV
+2. **Running the Code:**
+   1. uncomment your test and comment out other unnecessary ones
+   2. press new terminal
+   3. (in that terminal) type 'idf.py build'
+   4. resolve all compiler issues
+   5. make sure to connect esp32
+   6. type 'idf.py flash'
+   7. type 'idf.py monitor'
+   8. ctrl + ] if you need to stop monitoring or execution
+   
+   
 
