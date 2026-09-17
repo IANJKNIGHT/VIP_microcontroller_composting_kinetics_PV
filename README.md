@@ -45,6 +45,13 @@ This project seeks to maximize the composting kinetics using a 12V PWM DC blower
    6. type 'idf.py flash'
    7. type 'idf.py monitor'
    8. ctrl + ] if you need to stop monitoring or execution
+
+### Committing Code to the repository
+1. in the terminal type 'git pull'
+2. Be careful about resolving any conflicts
+3. if none 'git add .'
+4. git commit -m '[some descriptive commit message that explains why you added this code]'
+5. git push 
    
    
 
