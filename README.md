@@ -37,14 +37,15 @@ This project seeks to maximize the composting kinetics using a 12V PWM DC blower
 .git)
 
 2. **Running the Code:**
-   1. uncomment your test and comment out other unnecessary ones
-   2. press new terminal
-   3. (in that terminal) type 'idf.py build'
-   4. resolve all compiler issues
-   5. make sure to connect esp32
-   6. type 'idf.py flash'
-   7. type 'idf.py monitor'
-   8. ctrl + ] if you need to stop monitoring or execution
+   1. ensure that you are in the ventilation_control folder
+   2. uncomment your test and comment out other unnecessary ones
+   3. press new terminal
+   4. (in that terminal) type 'idf.py build'
+   5. resolve all compiler issues
+   6. make sure to connect esp32
+   7. type 'idf.py flash'
+   8. type 'idf.py monitor'
+   9. ctrl + ] if you need to stop monitoring or execution
 
 ### Committing Code to the repository
 1. in the terminal type 'git pull'
