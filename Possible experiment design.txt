@@ -1,0 +1,15 @@
+Possible experiment design
+
+[ 5-Gallon Bucket Base ]
+                             │
+     ┌───────────────────────┴───────────────────────┐
+     │                                               │
+  [ Air Supply Port ]                     [ Leachate Drain Port ]
+  (1/2" Bulkhead + Barb)                  (1/4" Bulkhead + Barb)
+             │                                       │
+             ▼                                       ▼
+  [ Vertical Goose-Neck Hose ]            [ 1/4" Inline Ball Valve ]
+             │                                 (Normally CLOSED)
+             ▼                                       │
+     [ Drip Tee + Blower ]                           ▼
+   (Systems 2, 3, 4 only)                 [ Leachate Collection Flask ]
