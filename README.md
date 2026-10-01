@@ -19,7 +19,7 @@ This project seeks to maximize the composting kinetics using a 12V PWM DC blower
 
 | Phase / Target Date | Ian Knight | Anushka Erra | System Integration & Field Testing |
 | :--- | :--- | :--- | :--- |
-| **Week 4: Designing Subsystems** | • gather data on power usage, fan RPM, ambient temperature and store it on an SD card<br>• create 3 different run modes for the fans<br>• look for websites the show light and shadow data<br>| • get caught up on research papers and look up more if interested<br>• stream the esp32 camera over the computer<br>1. add any UDF and initialization functions for the camera in esp32_cam.c<br>2. add UDFs and global vars (if any under designated location in main.c<br>3. add whatever code necessary between #if defined(TEST_ESP32_CAM) and #endif<br>4. add camera datasheet to main branch<br>| **Gateway 1:** Affectively record camera data, temperature, and power on the SD card, and timestamp it. |
+| **Week 6: Designing Subsystems** | • gather data on power usage, fan RPM, ambient temperature and store it on an SD card<br>• create 3 different run modes for the fans<br>• look for websites the show light and shadow data<br>• understand the difference between direct vs diffuse light<br>| • stream the esp32 camera over the computer<br>1. add any UDF and initialization functions for the camera in esp32_cam.c<br>2. add UDFs and global vars (if any under designated location in main.c<br>3. add whatever code necessary between #if defined(TEST_ESP32_CAM) and #endif<br>4. add camera datasheet to main branch<br>| **Gateway 1:** Affectively record camera data, temperature, and power on the SD card, and timestamp it. |
 
 
 ## 🛠️ Software & Build Setup
